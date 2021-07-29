@@ -7,7 +7,7 @@ export const fetchResults = (searchCriteria) => async dispatch => {
     const params = {
         engine: searchCriteria.searchEngine,
         q: searchCriteria.searchText,
-        key: "B92D57AEE45141AD96BC55721FC7F797"
+        key: "F3057E93EC7A45C585777015680A0939"
     };
     
     let response;
