@@ -6,7 +6,6 @@ import "./Result.css";
 
 function Result(props) {
 
-    console.log('props', props.results)
     return (
         <List>
             {props.results.result.map((result, index) => {

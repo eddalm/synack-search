@@ -15,7 +15,6 @@ function Search(props) {
 
     function showSearchResults(e) {
         e.preventDefault()
-        console.log({searchText, searchEngine})
 
         if (!searchText) {
             return;
